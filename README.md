@@ -13,3 +13,5 @@ Optionally script can save JSON as file - just uncomment 3 last lines.
 You can change dane[chartDay] to get data from another day (not only the last one).
 
 Enjoy :)
+
+https://i.imgur.com/ysQwW3m.png
