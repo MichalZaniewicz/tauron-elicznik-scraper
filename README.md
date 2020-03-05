@@ -17,4 +17,4 @@ If JSON should contain energy produced from solar panels, please change the [che
 
 Enjoy :)
 
-![Example usage with Grafana](https://i.imgur.com/ysQwW3m.png)
+![Example usage with Grafana](https://i.imgur.com/vueg6uj.png)
