@@ -6,7 +6,6 @@ import ssl
 from urllib3 import poolmanager
 import datetime
 
-
 #Add login details & meter ID here:
 username = 'TAURON_USERNAME'
 password = 'TAURON_PASSWORD'
@@ -16,7 +15,7 @@ payload = {
                 'username': username,
                 'password': password ,
                 'service': 'https://elicznik.tauron-dystrybucja.pl'
-				}
+}
 
 url = 'https://logowanie.tauron-dystrybucja.pl/login'
 charturl = 'https://elicznik.tauron-dystrybucja.pl/index/charts'
@@ -42,9 +41,11 @@ p = session.request("POST", url, data=payload, headers=headers)
 p = session.request("POST", url, data=payload, headers=headers)
 
 chart = {
+	        #change timedelta to get data from another days (1 for yesterday)
                 "dane[chartDay]": (datetime.datetime.now() - datetime.timedelta(1)).strftime('%d.%m.%Y'),
                 "dane[paramType]": "day",
                 "dane[smartNr]": meter_id,
+	        #switch to on if you need solar panels energy data:
                 "dane[checkOZE]": "off"
 }
 
