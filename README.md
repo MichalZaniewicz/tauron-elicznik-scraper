@@ -14,4 +14,4 @@ You can change dane[chartDay] to get data from another day (not only the last on
 
 Enjoy :)
 
-https://i.imgur.com/ysQwW3m.png
+![Example usage with Grafana](https://i.imgur.com/ysQwW3m.png)
