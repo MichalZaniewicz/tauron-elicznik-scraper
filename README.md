@@ -13,6 +13,8 @@ Optionally you can save JSON as file - just uncomment 3 last lines.
 
 You can change dane[chartDay] to get data from another day (not only the last one).
 
+If JSON should contain energy produced from solar panels, please change the [checkOZE] data from "Off" to "On".
+
 Enjoy :)
 
 ![Example usage with Grafana](https://i.imgur.com/ysQwW3m.png)
