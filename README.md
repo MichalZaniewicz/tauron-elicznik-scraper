@@ -8,6 +8,6 @@ Simple python3 script that outputs JSON with energy meter data from Tauron eLicz
 Energy meter ID can be obtained from https://elicznik.tauron-dystrybucja.pl/ website under "Punkt poboru:" field.
 Script currently supports only G11 tariff.
 
-You can change dane[chartDay] to get data from another day (not only last one).
+You can change dane[chartDay] to get data from another day (not only the last one).
 
 Enjoy :)
