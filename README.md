@@ -9,7 +9,7 @@ Energy meter ID can be obtained from https://elicznik.tauron-dystrybucja.pl/ web
 
 Script is currently tested only with G11 tariff.
 
-Optionally you can save JSON as file - just uncomment 3 last lines.
+Optionally you can save JSON as file - just uncomment 2 last lines.
 
 You can change dane[chartDay] to get data from another day (not only the last one).
 
