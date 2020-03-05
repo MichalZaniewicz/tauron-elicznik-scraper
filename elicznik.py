@@ -9,7 +9,7 @@ import datetime
 #Add login details & meter ID here:
 username = 'TAURON_USERNAME'
 password = 'TAURON_PASSWORD'
-meter_id = [TAURON_ENERGY_METER_ID]
+meter_id = TAURON_ENERGY_METER_ID
 
 payload = { 
                 'username': username,
