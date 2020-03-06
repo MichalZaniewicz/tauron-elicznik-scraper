@@ -45,8 +45,8 @@ chart = {
                 "dane[chartDay]": (datetime.datetime.now() - datetime.timedelta(1)).strftime('%d.%m.%Y'),
                 "dane[paramType]": "day",
                 "dane[smartNr]": meter_id,
-	        #switch to on if you need solar panels energy data:
-                "dane[checkOZE]": "off"
+	        #comment if don't want generated energy data in JSON output:
+                "dane[checkOZE]": "on"
 }
 
 r = session.request("POST", charturl, data=chart, headers=headers)
