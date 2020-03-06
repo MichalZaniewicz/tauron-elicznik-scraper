@@ -13,7 +13,7 @@ Optionally you can save JSON as file - just uncomment 2 last lines.
 
 You can change dane[chartDay] to get data from another day (not only the last one).
 
-If JSON should contain energy produced from solar panels, please change the [checkOZE] from "Off" to "On".
+If JSON **should not** contain energy produced from solar panels, please comment the "dane[checkOZE]": "on".
 
 Enjoy :)
 
