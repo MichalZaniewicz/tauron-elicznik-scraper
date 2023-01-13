@@ -1,4 +1,7 @@
 # tauron-elicznik-scraper
+
+**Important: in 2023 tauron changed its website and the script is currently not working!**
+
 Simple python3 script that outputs JSON with energy meter data from Tauron eLicznik service
 
 1. Add login info and energy meter ID into script
